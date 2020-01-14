@@ -1,6 +1,6 @@
 # Snowpack Demo
 
-This is the example project for [the high-level video walkthrough of using Snowpack with React](https://www.youtube.com/watch?v=pUUAil_9yIw&t=7s).
+This is the example project for [the high-level video walkthrough of using Snowpack with React](https://www.youtube.com/watch?v=pUUAil_9yIw).
 
 ## Getting started
 
