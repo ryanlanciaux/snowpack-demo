@@ -1,0 +1,26 @@
+{
+  "name": "snowpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"babel src --out-dir lib --watch\" \"live-server\"",
+    "prepare": "npx snowpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "npm:@reactesm/react",
+    "react-dom": "npm:@reactesm/react-dom",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/preset-react": "^7.8.0",
+    "concurrently": "^5.0.2",
+    "live-server": "^1.2.1",
+    "snowpack": "^1.0.3"
+  }
+}
