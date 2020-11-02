@@ -1,4 +1,4 @@
 {
-  "plugins": [["snowpack/assets/babel-plugin.js", {}]],
+  "plugins": [["@snowpack/babel-plugin-package-import", {}]],
   "presets": ["@babel/preset-react"]
 }
