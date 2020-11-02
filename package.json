@@ -11,16 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "npm:@reactesm/react",
-    "react-dom": "npm:@reactesm/react-dom",
-    "styled-components": "^5.0.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
     "@babel/core": "^7.8.0",
     "@babel/preset-react": "^7.8.0",
+    "@snowpack/babel-plugin-package-import": "^1.1.5",
     "concurrently": "^5.0.2",
     "live-server": "^1.2.1",
-    "snowpack": "^1.0.3"
+    "snowpack": "^2.16.1"
   }
 }
